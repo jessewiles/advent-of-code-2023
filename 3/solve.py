@@ -2,7 +2,7 @@ from collections import defaultdict
 from math import prod
 
 
-def part1():
+def both_parts():
     grid = []
     with open("test.txt") as f:
         for line in f.readlines():
@@ -81,4 +81,4 @@ def char_is_symbol(char: str) -> bool:
 
 
 if __name__ == "__main__":
-    part1()
+    both_parts()
