@@ -4,7 +4,7 @@ from math import prod
 
 def part1():
     grid = []
-    with open("input.txt") as f:
+    with open("test.txt") as f:
         for line in f.readlines():
             grid.append(list(line.strip()))
     width = len(grid[0])

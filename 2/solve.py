@@ -5,7 +5,7 @@ MAXES = {"red": 12, "green": 13, "blue": 14}
 
 
 def part1():
-    with open("input.txt", "r") as f:
+    with open("test.txt", "r") as f:
         total = []
         lines = f.readlines()
         for line in lines:
@@ -30,7 +30,7 @@ def part1():
 
 # part 2
 def part2():
-    with open("input.txt", "r") as f:
+    with open("test.txt", "r") as f:
         total = []
         lines = f.readlines()
         for line in lines:
